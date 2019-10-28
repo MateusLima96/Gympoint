@@ -11,3 +11,5 @@ class App {
     this.server.use(express.json());
   }
 }
+
+export default new App().server;
