@@ -4,4 +4,9 @@ module.exports = {
   database: 'gympoint',
   host: 'localhost',
   dialect: 'mysql',
+  define: {
+    timestamps: true,
+    underscored: true,
+    underscoredAll: true,
+  },
 };
